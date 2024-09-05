@@ -1,10 +1,10 @@
-# Solicita al usuario llenar una matriz de 3x3 y calcula la suma de todos sus elementos
+# Genera una matriz identidad de tamaño 4x4
 matriz = []
-print("Por favor, ingrese los valores para la matriz 3x3")
+print("\nPor favor, ingrese los valores para la matriz 3x3")
 
-for i in range(3):
+for i in range(4):
     fila = []
-    for j in range(3):
+    for j in range(4):
         valor = float(input(f"Elemeto [{i + 1}][{j + 1}]: "))
         fila.append(valor)
     matriz.append(fila)
@@ -14,4 +14,4 @@ print("\nLa matriz ingresada es: ")
 for fila in matriz:
     print(fila)
 
-print(f"La suma de todos los elementos de la matriz es: {suma}")
+print(f"\nLa suma de todos los elementos de la matriz es: {suma}")
